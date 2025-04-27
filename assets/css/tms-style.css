@@ -1,0 +1,54 @@
+#side-menu .menu-item-expenses,
+#side-menu .menu-item-tasks,
+#side-menu .menu-item-projects,
+#side-menu .menu-item-invoices,
+#side-menu .menu-item-estimates,
+#side-menu .menu-item-payments,
+#side-menu .menu-item-reports,
+#side-menu .menu-item-settings,
+#side-menu .menu-item-tickets,
+#side-menu .menu-item-knowledge-base,
+#side-menu .menu-item-knowledge-base-categories,
+#side-menu .menu-item-support,
+#side-menu .menu-item-leads,
+#side-menu .menu-item-estimate_request,
+#side-menu .menu-item-utilities,
+#side-menu .menu-item-customers,
+#side-menu .menu-item-sales,
+#side-menu #setup-menu-item,
+.dropdown-menu.dropdown-menu-right,
+.nav.navbar-nav.navbar-right,
+.header-my-timesheets
+{
+    display: none !important;
+}
+
+.staff_logged_time
+{
+    display: none !important;
+}
+.row-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.row-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ensure the status labels remain visible */
+.row-link .label {
+    pointer-events: none;
+}
+
+/* Style for the entire row hover effect */
+.dataTable tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+} 
+.table-consignors, .table-consignees, .table-trips, .table-drivers, .table-freight_invoices, .table-main-invoice-edit, .table-parties, .table-vehicle_owners{
+    text-transform: capitalize;
+}
